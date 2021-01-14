@@ -1,0 +1,169 @@
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: acumin-pro, sans-serif;
+	background-color: #ecf0f5;
+	line-height: 1.4;
+}
+
+.wrapper{
+	width: 100%;
+}
+/* Navigation */
+
+.nav {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+  }
+  
+  ul{
+	  list-style: none;
+  }
+ 
+  .nav a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 10%;
+	text-align: center;
+  }
+  
+  .container{
+	margin-top: 30px;
+	margin-left: 40px;
+	
+}
+
+.info-content{
+	border:1px solid#555;
+	height: 620px;
+	width: 97%;
+	background-color: white;
+	margin-left: 22px;
+}
+
+/*for info table*/
+
+ h2{
+	text-align: center;
+}
+
+.info h3{
+	margin-left:50px;
+	margin-top: 10px;
+}
+
+.info table{
+	width: 700px;
+	border: 0;
+	
+	
+}
+
+.info table, th, td{
+	background-color: white;
+	border: 0;
+	
+}
+
+.info tr{
+	border-bottom:0;
+}
+
+table{
+	width: 1250px;
+	background-color:  #ffffff;
+	
+}
+
+
+th{
+	text-align: left;
+}
+
+table, th, td{
+	font-size:0.9em;
+	margin: 25px, 0;
+	border-collapse: collapse;
+	
+}
+
+th{
+	background-color:  #ffffff;
+	color: black;
+	font-weight: bold;
+}
+
+th, td{
+	padding: 12px 15px;
+}
+
+tr{
+	border-bottom: 1px solid gray;
+}
+
+tr:nth-child(even){
+	background-color: #ffffff;
+}
+
+tr:nth-child(odd){
+	background-color: #f2f2f2
+}
+ 
+/* for the track table*/
+.track table{
+	width: 300px;
+}
+
+.track a{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.track a:hover{
+	color: black;
+	font-size: 1.5rem;
+}
+
+#enroll-btn{
+	margin-left:1170px;
+	margin-top: 5px;
+	width: 70px;
+	height: 30px;
+}
+
+  
+
+
+  @media screen and (max-width: 680px) {
+	 table, .nav a{
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  
+  
+  
+  @media screen and (max-width: 800px) {
+	 table, .nav, .info table {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	}
+	.container, .info-content {margin-left: 0; width: 95%; height: 400px; margin-left:10px; }
+  }
+  
+  }

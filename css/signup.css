@@ -1,0 +1,125 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(img/circle1.jpg);
+	background-color: #367fa9;
+	background-size: cover;
+	line-height: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+
+.wrapper{
+	margin: auto;
+	width: 420px;
+	height:100%;
+	 
+}
+
+.container{
+	background-color:white;
+	max-height: 100%;
+	padding: 30px;
+	margin-top: 60px;
+	box-shadow: 0 0 5px  rgb(82, 83, 82);
+	border-radius: 5px;
+
+}
+
+.signup-form{
+	height: inherit;
+	
+	
+}
+
+h2{
+	color:#34495E;
+	text-align: center;
+}
+
+form input{
+	width: 350px;
+	height: 30px;
+}
+
+.signup-form #submit{
+	background-color: #3455DB;
+	color: white;
+	font-size:18px;
+}
+
+.signup-form #submit:hover{
+	background-color: darkblue;
+	color: white;
+	font-size:18px;
+}
+
+ .signup-form a{
+	text-decoration: none;
+	color: #3455DB;
+}
+
+ .signup-form a:hover{
+	text-decoration: underline;
+	font-size:18px;
+}
+
+.signup-form .error{
+    font-size: 0.9rem;
+    color: red;
+    width: 300px;
+	
+}
+
+.signup-form #user{
+	margin-top: -10px;
+}
+
+.signup-form .error-login{
+    font-size: 0.9rem;
+    color: red;
+	margin-top: -10px;
+	margin-left: 80px;
+	padding: 5px;
+	
+	
+}
+
+
+
+.success{
+    padding: 5px;
+    margin-left:90px;
+    margin-top: -25px;
+    font-size: 1.2rem;
+    color: green;
+    width: 300px;
+}
+
+#danger-btn a{
+	margin-left:-30px;
+	padding: 5px;
+	background-color:rgb(212, 6, 6);
+	border: 2px solid rgb(212, 6, 6);
+	border-radius: 5px;
+	color:white
+
+}
+
+#edit-btn a{
+	padding: 5px;
+	background-color:rgb(4, 4, 180);
+	border: 2px solid rgb(4, 4, 180);
+	border-radius: 5px;
+	color:white
+
+}
+
+ 
