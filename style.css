@@ -218,3 +218,86 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+
+/*****************************  Italian trackpage  ****************************************/
+
+/****** section 1 ********/
+.track-heading {
+	text-align: center;	
+	margin: 60px auto 50px;
+	text-transform: capitalize;
+}
+
+.image-position {
+	width: 40%;
+	box-shadow: 5px 5px 15px 5px;	
+}
+
+.info-position {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	font-weight: bold;
+	font-style: italic;	
+}
+
+.para-style {
+	margin: 5px 50px 20px;
+}
+
+.info-block {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.italiasection1 {
+	background-color: #f6faa2;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+/****** section 2 ********/
+
+.subheading {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+/****** section 3 ********/
+
+.enroll {
+	border: none;
+	font-size: inherit;
+	padding: 2% 5%;
+	font-family: inherit;
+	margin: 0 25%;
+	background-color: rgba(252, 186, 3, 1);
+	border-radius: 3%;
+	font-size: 30px;
+	box-shadow: inset 0 0 30px .1px black;
+}
+
+.track-heading1 {
+	text-align: center;	
+	margin: 60px auto 30px;
+	text-transform: capitalize;
+	background-color: rgba(252, 186, 3, 0.7);
+}
+
+.down-arrow {
+	text-align: center;
+	font-size: 70px;
+}
+.italiasection3 {
+	background-color: #f6faa2;
+	padding: 20px 50px;
+	background: url('img/italianpics/italia3.jpg') no-repeat center/ cover;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
