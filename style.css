@@ -250,9 +250,10 @@
 .info-block {
 	display: flex;
 	justify-content: space-evenly;
+	margin-bottom: 20px;
 }
 
-.italiasection1 {
+.track-section1 {
 	background-color: #f6faa2;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -291,7 +292,7 @@
 	text-align: center;
 	font-size: 70px;
 }
-.italiasection3 {
+.track-section3 {
 	background-color: #f6faa2;
 	padding: 20px 50px;
 	background: url('img/italianpics/italia3.jpg') no-repeat center/ cover;
@@ -300,4 +301,18 @@
 	justify-content: center;
 	flex-direction: column;
 	margin-bottom: 100px;
+}
+
+
+/*****************************  Asian trackpage  ****************************************/
+#asianbackground1 {
+	background-color: #fdd587;
+}
+
+#asianbackground2 {
+	background: url('img/asianpics/asia3.jpg') no-repeat center/ cover;
+}
+
+#asianarrow {
+	color: #fdd587;
 }
