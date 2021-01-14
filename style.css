@@ -316,3 +316,16 @@
 #asianarrow {
 	color: #fdd587;
 }
+
+/*****************************  eastern trackpage  ****************************************/
+#easternbackground1 {
+	background-color: #ffddbd;
+}
+
+#asianbackground2 {
+	background: url('img/easternpics/eastern3.jpg') no-repeat center/ cover;
+}
+
+#easternarrow {
+	color: #ff0000;
+}
