@@ -9,12 +9,12 @@
 			<header class="theheader">
 			<img src="img/logo3.jpg" alt="logo picture" class="logo">
 				<nav class="thenav">
-					<a href="#">Home</a>
+					<a href="index.php">Home</a>
 					<div class="tracks">
 						<button class="trackbtn">Tracks</button>
 						<div class="track-menu">
-							<a href="#">Italian</a>
-							<a href="#">Asian</a>
+							<a href="italiantrack.php">Italian</a>
+							<a href="asiantrack.php">Asian</a>
 							<a href="#">East-European</a>
 						</div>
 					</div>
