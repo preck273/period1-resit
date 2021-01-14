@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<title>Asian track</title>
-		<link rel="stylesheet" type="text/css" href="style.css">		
+		<link rel="stylesheet" type="text/css" href="css/style.css">		
 	</head>
 	<body>
 		<header class="theheader">
-			<img src="img/logo3.jpg" alt="logo picture" class="logo">
+			<a href ="index.php"><img src="img/logo3.jpg" alt="logo picture" class="logo"></a>
 				<nav class="thenav">
 					<a href="index.php">Home</a>
 					<div class="tracks">
@@ -17,8 +17,8 @@
 							<a href="easterntrack.php">East-European</a>
 						</div>
 					</div>
-					<a href="#">Sign-up</a>
-					<a href="#">Login</a>
+					<a href="signup.php">Sign-up</a>
+					<a href="login.php">Login</a>
 				</nav>
 				<h1 class="title">Culinary School</h1>
 				<span class="slogan">
@@ -29,7 +29,7 @@
 			<h2 class="track-heading">Welcome to the Asian track</h2>
 			<section class="track-section1" id="asianbackground1">				
 				<div class="info-block">
-					<img src="img/asianpics/asia1.jpg" alt="food" class="image-position">
+					<img src="img/asia1.jpg" alt="food" class="image-position">
 					<div  class="info-position">
 						<p class="para-style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
 					magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
@@ -50,7 +50,7 @@
 						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 					</div>
-					<img src="img/asianpics/asia2.jpg" alt="food" class="image-position">
+					<img src="img/asia2.jpg" alt="food" class="image-position">
 				</div>				
 			</section>
 			<section>
@@ -86,7 +86,7 @@
 			<section class="track-section3" id="asianbackground2">
 				<h2 class="track-heading1">Interested!! After you have signed up, come and enroll below</h2>
 				<span class="down-arrow" id="asianarrow">&dArr;</span>
-				<button class="enroll">Enroll</button>
+				<button class="enroll"><a href="login.php">Enroll</a></button>
 			</section>
 		</main>
 		<footer class="mainfooter">
@@ -95,9 +95,9 @@
 					<p>Contact Us</p>
 					<p>Culinaryschool@gmail.com</p>
 					<p>1234567890</p>
-					<img src="img/icons/instagram.png" alt="" class="icon">
-					<img src="img/icons/facebook.png" alt="" class="icon">
-					<img src="img/icons/twitter.png" alt="" class="icon">
+					<img src="img/instagram.png" alt="" class="icon">
+					<img src="img/facebook.png" alt="" class="icon">
+					<img src="img/twitter.png" alt="" class="icon">
 				</span>
 				<span class="footerinfo2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
 					magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna

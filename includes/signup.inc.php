@@ -137,8 +137,13 @@ if( isset($_POST['submit']))
                     mysqli_stmt_bind_param($stmt, "ssssssssss", $firstName, $lastName, $address, $postal, $town, $phone, $email, $dt, $usrn, $hashedpass);
                     if(mysqli_stmt_execute($stmt)){
                         
-                       // header('Refresh:2; url=login.php');
+                        header('Refresh:1; url=login.php');
+                        echo '<script language="javascript">';
+                        echo 'alert("Registration successful ")';
+                        echo '</script>';
+                        exit;
                         $success_msg = "Registration successful";
+                        
                     }else{
                         echo "SOmething went wrong. Please try again later.".mysqli_error($conn);
                     }

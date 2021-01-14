@@ -28,12 +28,12 @@
             $tr_err = "Please fill in the course track";
         }
 
-        if(empty($sd))
+        if(empty($startDate))
         {
             $sd_err = "Please fill in the start date";
         }
 
-        if(empty($ed))
+        if(empty($endDate))
         {
             $ed_err = "Please fill in the end date";
         }

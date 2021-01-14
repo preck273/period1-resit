@@ -66,6 +66,7 @@
                                             //wait for 2 seconds to display the success msg before redirect to profile.php page 
                                             header('Refresh:2; url=profile.php');   
                                             $success_msg = "Login successful";
+                                            
                                                                                    
                                         }   
                                                                           

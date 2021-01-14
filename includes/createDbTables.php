@@ -43,6 +43,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'culinaryschool');
 
     $db = "CREATE TABLE connection
         (
+
             course_code int not null ,
             student_Code int not null ,
             CONSTRAINT connection_course_fk FOREIGN KEY (course_code)
@@ -53,10 +54,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'culinaryschool');
             CONSTRAINT connection_student_fk FOREIGN KEY (student_code)
             REFERENCES student (student_code)
                         ON UPDATE CASCADE
-                        ON DELETE NO ACTION,
-
-            start_date DATE NOT NULL,
-            end_date DATE NOT NULL
+                        ON DELETE NO ACTION
 
     )";
 

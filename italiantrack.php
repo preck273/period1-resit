@@ -2,23 +2,23 @@
 <html>
 	<head>
 		<title>Italian track</title>
-		<link rel="stylesheet" type="text/css" href="style.css">		
+		<link rel="stylesheet" type="text/css" href="css/style.css">		
 	</head>
 	<body>
 		<header class="theheader">
-			<img src="img/logo3.jpg" alt="logo picture" class="logo">
+			<a href ="index.php"><img src="img/logo3.jpg" alt="logo picture" class="logo"></a>
 				<nav class="thenav">
 					<a href="index.php">Home</a>
 					<div class="tracks">
 						<button class="trackbtn">Tracks</button>
 						<div class="track-menu">
-							<a href="ialiantrack.php">Italian</a>
+							<a href="italiantrack.php">Italian</a>
 							<a href="asiantrack.php">Asian</a>
 							<a href="easterntrack.php">East-European</a>
 						</div>
 					</div>
-					<a href="#">Sign-up</a>
-					<a href="#">Login</a>
+					<a href="signup.php">Sign-up</a>
+					<a href="login.php">Login</a>
 				</nav>
 				<h1 class="title">Culinary School</h1>
 				<span class="slogan">
@@ -29,7 +29,7 @@
 			<h2 class="track-heading">Welcome to the Italian track</h2>
 			<section class="track-section1">				
 				<div class="info-block">
-					<img src="img/italianpics/italia1.jpg" alt="food" class="image-position">
+					<img src="img/italia1.jpg" alt="food" class="image-position">
 					<div  class="info-position">
 						<p class="para-style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
 					magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
@@ -50,7 +50,7 @@
 						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 					</div>
-					<img src="img/italianpics/italia2.jpg" alt="food" class="image-position">
+					<img src="img/italia2.jpg" alt="food" class="image-position">
 				</div>				
 			</section>
 			<section>
@@ -86,7 +86,7 @@
 			<section class="track-section3">
 				<h2 class="track-heading1">Interested!! After you have signed up, come and enroll below</h2>
 				<span class="down-arrow">&dArr;</span>
-				<button class="enroll">Enroll</button>
+				<button class="enroll"><a href="login.php">Enroll</a></button>
 			</section>
 		</main>
 		<footer class="mainfooter">
@@ -95,9 +95,9 @@
 					<p>Contact Us</p>
 					<p>Culinaryschool@gmail.com</p>
 					<p>1234567890</p>
-					<img src="img/icons/instagram.png" alt="" class="icon">
-					<img src="img/icons/facebook.png" alt="" class="icon">
-					<img src="img/icons/twitter.png" alt="" class="icon">
+					<img src="img/instagram.png" alt="" class="icon">
+					<img src="img/facebook.png" alt="" class="icon">
+					<img src="img/twitter.png" alt="" class="icon">
 				</span>
 				<span class="footerinfo2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
 					magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna

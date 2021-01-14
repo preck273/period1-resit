@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/admin.css">
-    <title>Document</title>
+    <title>Welcome Admin</title>
 </head>
 <body>
 	<div class="wrapper">
-		<header class="nav">
-			<div class="nav-text">
-				
-			</div>
+		<header class="nav">	
 		</header>
 			<div class="sidebar">
+			<img src="img/logo1.jpg" alt="logo">
 				<ul>
 					<li><a href="dashboard.php">Dashboard</a></li>
-					<li><a href="">View Enrolled Student </a></li>
+					<li><a href="viewenrolled.php">View Enrolled Student </a></li>
 					<li><a href="viewcourse.php">View Course </a></li>
-					<li><a href="add.php">Add Tracks/course</a></li>
+					<li><a href="add.php">Add course</a></li>
 					<li><a href="includes/adminlogout.inc.php" onclick="return confirm('Are you sure you want to logout?');">Logout</a></li>
 				</ul>
 			</div>

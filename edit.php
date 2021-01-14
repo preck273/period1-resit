@@ -20,17 +20,18 @@
                     <p><input type="text" name="track"  value="<?php echo $track; ?>"></p><br>
 
                     <p><label for="start-date">Start Date</label></p>
-                    <p><input type="date" name="start-date"  value="<?php echo $startDate; ?>"></p><br>
+                    <p><input type="text" name="start-date" placeholder="yyy-mm-dd"  value="<?php echo $startDate; ?>"></p><br>
 
                     <p><label for="end-date">End Date</label></p>
-                    <p><input type="date" name="end-date"  value="<?php echo $endDate; ?>"></p><br>
+                    <p><input type="text" name="end-date" placeholder="yyy-mm-dd" value="<?php echo $endDate; ?>"></p><br>
                 
                     <p><label for="price">Price</label></p>
                     <p><input type="text" name="price"  value="<?php echo $price; ?>"></p><br>
                     
-                    <input type="submit" name="submit" value="Update">               
+                    <input type="submit" name="submit" value="Update" id="add">               
                 </form>
             </div>
         </div>
     </div>
-    
+    </body>
+    </html>

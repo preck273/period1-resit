@@ -4,13 +4,13 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body{
-	background-image: url(img/circle1.jpg);
-	background-color: #367fa9;
+	background-image: url(../img/chef.jpg);
 	background-size: cover;
-	line-height: 20px;
+	position: no-repeat;
 	font-family: Helvetica, Arial, sans-serif;
 
 }
@@ -27,10 +27,9 @@ body{
 	background-color:white;
 	max-height: 100%;
 	padding: 30px;
-	margin-top: 60px;
+	margin-top: 20px;
 	box-shadow: 0 0 5px  rgb(82, 83, 82);
 	border-radius: 5px;
-
 }
 
 .signup-form{
@@ -50,13 +49,13 @@ form input{
 }
 
 .signup-form #submit{
-	background-color: #3455DB;
-	color: white;
+	background-color:rgba(252, 186, 3, 0.9);
+	color: black;
 	font-size:18px;
 }
 
 .signup-form #submit:hover{
-	background-color: darkblue;
+	background-color: #cc9343;
 	color: white;
 	font-size:18px;
 }

@@ -1,17 +1,11 @@
 <?php
-  //Initialize the session
-  session_start();
-  // Check if the user is logged in(In the correct way before accessing this page), if not then redirect him to login page
-  if(!isset($_SESSION["valid_id"]) || !isset($_SESSION["valid_useradmin"])){
-      //redirect to login page
-         header("location: adminlogin.php");
-          exit();
-  }
-  
     include_once "header.php";
     require_once "includes/conndb.php";
 
-    $fetch = "SELECT course_code, course_name, style, start_date, end_date, price FROM course";
+    $fetch = "SELECT c.course_code, c.course_name, c.style, s.student_Code, s.first_name, s.last_name
+                FROM course AS c
+                JOIN connection AS con ON con.course_code=c.course_code
+                JOIN student AS s ON  s.student_Code=con.student_code";
             
         if($statement = mysqli_prepare($conn, $fetch)){
                     
@@ -22,13 +16,13 @@
             }
         } 
 
-        mysqli_stmt_bind_result($statement, $id, $courseName, $track, $sd, $ed, $price);
+        mysqli_stmt_bind_result($statement, $id, $courseName, $track, $studentCode, $firstname, $lastname);
         mysqli_stmt_store_result($statement);
 
         //Check if there are results in the statement
         if(mysqli_stmt_num_rows($statement) != 0){
 
-        ?>
+            ?>
 
                 <div style="overflow-x:auto;">
                     <table>
@@ -36,12 +30,10 @@
                         <th>Course Code</th>
                         <th>Course Name</th>
                         <th>Style(Track)</th>
-                        <th>Start Date</th>
-                        <th>End Date</th>
-                        <th>Price</th>
-                        <th>Action</th>
-                        <th>Action</th>
-
+                        <th>Student Code</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        
                         <?php
                         $counter = 1;
                         //Fetch all rows of data from the result statement
@@ -52,12 +44,9 @@
                             echo "<td>" . $id . "</td>" ;
                             echo "<td>" . $courseName . "</td>" ;
                             echo "<td>" . $track . "</td>" ;
-                            echo "<td>" . $sd . "</td>" ;
-                            echo "<td>" . $ed . "</td>" ;
-                            echo "<td> $" . $price . "</td>" ;
-                            
-                            echo "<td id='edit-btn'><a href='edit.php?id=" . $id. "'>Edit</td>";
-                            echo "<td id='danger-btn'><a onClick=\"javascript: return confirm('Are you sure you want to delete this?');\" href='includes/delete.inc.php?id=".$id."'>Delete</td>";                  
+                            echo "<td>" . $studentCode . "</td>" ;
+                            echo "<td>" . $firstname . "</td>" ;
+                            echo "<td>" . $lastname . "</td>" ;           
                             echo '</tr>';
                         }
                         ?>
@@ -65,9 +54,9 @@
                     </table>
                 </div>
              </div>
-         </div>	
+         </div>
          </body>
-        </html>							
+        </html>								
            
                 <?php
                     
@@ -76,6 +65,5 @@
 
                     mysqli_close($conn);
 
-                  
+                   
                 ?>
-

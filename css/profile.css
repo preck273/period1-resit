@@ -22,33 +22,52 @@ body{
 
 .nav {
 	width: 100%;
-	background-color: #555;
-	overflow: auto;
+	background-color:#222d32;
+	
   }
   
-  ul{
+   ul{
 	  list-style: none;
+	  
+  }
+
+  .nav img{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
   }
  
-  .nav a {
-	float: left;
-	padding: 12px;
-	color: white;
+.menu{
+	display: inline-block;
+	width: 800px;
+	margin-top: -30px;
+
+	margin-left: 250px;
+	
+}
+
+  .menu a {
 	text-decoration: none;
-	font-size: 17px;
-	width: 10%;
-	text-align: center;
+	float: left;
+	margin-top: -50px;
+	padding: 50px;
+	font-size: 1.5rem;
+	color:#c9ced7;
   }
   
+ .menu a:hover{
+	 color: white;
+ }
+
   .container{
 	margin-top: 30px;
-	margin-left: 40px;
+	margin-left: 10px;
 	
 }
 
 .info-content{
 	border:1px solid#555;
-	height: 620px;
+	height: 530px;
 	width: 97%;
 	background-color: white;
 	margin-left: 22px;
@@ -68,23 +87,24 @@ body{
 .info table{
 	width: 700px;
 	border: 0;
-	
-	
 }
 
-.info table, th, td{
+.info th, td{
 	background-color: white;
-	border: 0;
-	
 }
+
+
 
 .info tr{
 	border-bottom:0;
+
 }
 
 table{
 	width: 1250px;
 	background-color:  #ffffff;
+	margin-left: 80px;
+	margin-top:40px;
 	
 }
 
@@ -94,14 +114,14 @@ th{
 }
 
 table, th, td{
-	font-size:0.9em;
+	font-size:1.1em;
 	margin: 25px, 0;
 	border-collapse: collapse;
 	
 }
 
 th{
-	background-color:  #ffffff;
+	background-color: gray;
 	color: black;
 	font-weight: bold;
 }
@@ -138,31 +158,39 @@ tr:nth-child(odd){
 }
 
 #enroll-btn{
-	margin-left:1170px;
-	margin-top: 5px;
-	width: 70px;
-	height: 30px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 150px;
+	width: 100px;
+	height: 40px;
 }
 
   
 
 
   @media screen and (max-width: 680px) {
-	 table, .nav a{
+	 table{
 	  float: none;
 	  display: block;
 	  width: 100%;
 	  text-align: center;
 	}
-  
+	
+	.menu a{
+		float: none;
+	  display: block;
+	  width: 100%;
+	  margin-left: -100px;
+	}
   
   
   @media screen and (max-width: 800px) {
-	 table, .nav, .info table {
+	 table, .menu, .info table, .nav {
 	  width: 100%;
 	  height: auto;
 	  position: relative;
 	}
+	.menu a {float: left;}
 	.container, .info-content {margin-left: 0; width: 95%; height: 400px; margin-left:10px; }
   }
   

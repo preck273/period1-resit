@@ -26,16 +26,19 @@
                  
                 ?>
                 <div class="container">
+                <div class="info-content">
                 <div style="overflow-x:auto;"> 
-                 <table>
-                     <th>S/N</th>
-                     <th>Track</th>
-                     <th>Course Code</th>
-                     <th>Course Name</th>
-                     <th>Start Date</th>
-                     <th>End Date</th>
-                     <th>Price</th>
-                     <th>Check in</th>
+                <form method="post" action="includes/enroll.inc.php">
+                     <table>
+                        <th>S/N</th>
+                        <th>Track</th>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Price</th>
+                        <th>Check in</th>
+                        
                      
                     <?php
                          $counter = 1;
@@ -50,18 +53,19 @@
                      echo "<td>" . $startDate . "</td>" ;
                      echo "<td>" . $endDate . "</td>" ;
                      echo "<td>" . $price . "</td>" ;
-                     echo "<td id ='edit-btn'><input type ='checkbox'></td>";
+                     echo "<td id ='edit-btn'><input type ='checkbox' name='check[]' value='".$id."'></td>";
                  echo '</tr>';
             }
-                 ?>
-																				
+                 ?>															
                  </table>
-                </div>
-                <form>
-                     <input type="submit" name="submit" id="enroll-btn" value="Enroll">
-                 </form>	
+                 <input type="submit" name="submit" id="enroll-btn" value="Enroll">  
+                 </form>
+                 </div>	
              </div>	
-        </div>						
+        </div>
+        </div>
+        </body>
+        </html>						
         
              <?php
                     

@@ -18,7 +18,7 @@
 			<div class="signup-form">
                 <form action="" method="post">
                     <div class="success"> <?php echo $success_msg; ?></div> 
-                    <h2>Add new Track/course</h2><br>
+                    <h2>Add new course</h2><br>
                     <p><label for="courseCode">Course Code</label></p>
                     <p><input type="text" name="courseCode" value="<?php echo isset($_POST['courseCode']) ? $_POST['courseCode'] : '' ?>">
                     <div class="error"> <?php echo $cc_err;?> </div></p><br>
@@ -30,21 +30,23 @@
                     <div class="error"> <?php echo $tr_err;?> </div></p><br>
 
                     <p><label for="start-date">Start Date</label></p>
-                    <p><input type="date" name="start-date"  value="<?php echo isset($_POST['sd']) ? $_POST['sd'] : '' ?>"></p>
+                    <p><input type="text" name="start-date" placeholder="yyy-mm-dd"  value="<?php echo isset($_POST['sd']) ? $_POST['sd'] : '' ?>"></p>
                     <div class="error"> <?php echo $sd_err;?> </div></p><br>
 
                     <p><label for="end-date">End Date</label></p>
-                    <p><input type="date" name="end-date"  value="<?php echo isset($_POST['ed']) ? $_POST['ed'] : '' ?>"></p>
+                    <p><input type="text" name="end-date" placeholder="yyy-mm-dd"  value="<?php echo isset($_POST['ed']) ? $_POST['ed'] : '' ?>"></p>
                     <div class="error"> <?php echo $ed_err;?> </div></p><br>
 
                     <p><label for="price">Price</label></p>
                     <p><input type="text" name="price"  value="<?php echo isset($_POST['price']) ? $_POST['price'] : '' ?>">
                     <div class="error"> <?php echo $pr_err;?> </div></p><br>
 
-                    <input type="submit" name="submit" value="Submit">
+                    <input type="submit" name="submit" value="Submit" id="add">
                 
                 </form>
             </div>
         </div>
     </div>
+    </body>
+    </html>
     

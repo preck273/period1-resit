@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+body{
+
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 /*****************************  Homepage  ****************************************/
 
 /******menu********/
@@ -67,7 +72,7 @@
 }
 
 .theheader {
-	background: url('img/header-img1.jpg') no-repeat center /cover;
+	background: url('../img/header-img1.jpg') no-repeat center /cover;
 	width: 100%;
 	height: 350px;
 	padding: 1px;
@@ -92,6 +97,7 @@
 .logo {
 	float: left;
 	width: 120px;
+	
 }
 
 
@@ -279,6 +285,12 @@
 	border-radius: 3%;
 	font-size: 30px;
 	box-shadow: inset 0 0 30px .1px black;
+	
+}
+
+.enroll a{
+	text-decoration: none;
+	color: black;
 }
 
 .track-heading1 {
@@ -295,7 +307,7 @@
 .track-section3 {
 	background-color: #f6faa2;
 	padding: 20px 50px;
-	background: url('img/italianpics/italia3.jpg') no-repeat center/ cover;
+	background: url('../img/italia3.jpg') no-repeat center/ cover;
 	height: 400px;
 	display: flex;
 	justify-content: center;
@@ -310,7 +322,7 @@
 }
 
 #asianbackground2 {
-	background: url('img/asianpics/asia3.jpg') no-repeat center/ cover;
+	background: url('../img/asia3.jpg') no-repeat center/ cover;
 }
 
 #asianarrow {
@@ -323,7 +335,7 @@
 }
 
 #asianbackground2 {
-	background: url('img/easternpics/eastern3.jpg') no-repeat center/ cover;
+	background: url('../img/eastern3.jpg') no-repeat center/ cover;
 }
 
 #easternarrow {

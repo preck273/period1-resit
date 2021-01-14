@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 13, 2021 at 07:13 PM
+-- Generation Time: Jan 14, 2021 at 08:32 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -29,9 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `connection` (
   `course_code` int(11) NOT NULL,
-  `student_Code` int(11) NOT NULL,
-  `start_date` date NOT NULL,
-  `end_date` date NOT NULL
+  `student_Code` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -86,13 +84,6 @@ CREATE TABLE `theadmin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `theadmin`
---
-
-INSERT INTO `theadmin` (`admin_code`, `first_name`, `last_name`, `telephone_number`, `email_address`, `users_name`, `admin_password`) VALUES
-(1, 'Raymond', 'Scott', 123456789, 'raymond@gmail.com', 'Admin', '$2y$10$88o5v1NU20ANw7t7IaCoS.ZcC9LVVp3K2cPantJ6upqRSv5iosaEy');
-
---
 -- Indexes for dumped tables
 --
 
@@ -141,7 +132,7 @@ ALTER TABLE `student`
 -- AUTO_INCREMENT for table `theadmin`
 --
 ALTER TABLE `theadmin`
-  MODIFY `admin_code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `admin_code` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables

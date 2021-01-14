@@ -73,6 +73,8 @@
                 </div>								
             </div>
         </div>
+        </body>
+        </html>
                 <?php
                     
                     }
@@ -80,7 +82,7 @@
 
                     mysqli_close($conn);
 
-                    //include_once "footer.php";
+                    
                 ?>
 
 

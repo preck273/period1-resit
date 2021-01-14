@@ -1,6 +1,6 @@
 <?php
     require_once "conndb.php";
-    $courseName = $courseCode = $track = $price ="";
+    
      $success_msg = "";
 
     if(isset($_POST['submit']))
