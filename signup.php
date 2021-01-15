@@ -24,8 +24,8 @@
 							<a href="easterntrack.php">East-European</a>
 						</div>
 					</div>
-					<a href="signup.php">Sign-up</a>
-					<a href="login.php">Login</a>
+					<a href="../signup.php">Sign-up</a>
+					<a href="../login.php">Login</a>
 				</nav>
 		</div>
 			<div class="wrapper">

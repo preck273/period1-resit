@@ -198,12 +198,14 @@ body{
 /****** footer ********/
 
 .footerinfo {
+	margin-top: 10px;
 	width: 30%;
 }
 
 .footerinfo1 {
 	width: 30%;
-	padding-top: 30px;
+	display: flex;
+	align-items: center;
 }
 
 .footerinfo2 {
@@ -225,6 +227,11 @@ body{
 	justify-content: space-between;
 }
 
+
+.logo-footer {
+	width: 30%;
+	align-self: flex-start;
+}
 
 /*****************************  Italian trackpage  ****************************************/
 
