@@ -2,7 +2,7 @@
 			$pageTitle = "homepage";
 			$pageHeading = "Culinary School";
 			$background = false;
-			include("inc/header.php"); ?>
+			include("includes/header.php"); ?>
 			<main>
 				<section class="homesection1">
 					<h2 class="headstyle">Become a chef today</h2>

@@ -60,7 +60,7 @@
 		$pageHeading = $tracksinfo[$track]["pageHeading"];	
 		$background = false;
 		
-		include("inc/header.php"); ?>
+		include("includes/header.php"); ?>
 		
 		<main>
 			<h2 class="track-heading"><?php echo $tracksinfo[$track]["track-heading"]; ?></h2>
