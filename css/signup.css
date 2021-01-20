@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-body{
+.background {
 	background-image: url(../img/chef.jpg);
 	background-size: cover;
 	position: no-repeat;
@@ -24,12 +24,16 @@ body{
 }
 
 .container{
-	background-color:white;
+	background-color:  #ffffffbd;
 	max-height: 100%;
 	padding: 30px;
-	margin-top: 20px;
+	margin: 30px auto 100px;
 	box-shadow: 0 0 5px  rgb(82, 83, 82);
 	border-radius: 5px;
+}
+
+.header-padding{
+	padding: .1px;
 }
 
 .signup-form{

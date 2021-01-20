@@ -75,7 +75,7 @@ body{
 	background: url('../img/header-img1.jpg') no-repeat center /cover;
 	width: 100%;
 	height: 350px;
-	padding: 1px;
+	padding: .1px;
 }
 
 .title {
@@ -197,27 +197,6 @@ body{
 
 /****** footer ********/
 
-.footerinfo {
-	margin-top: 10px;
-	width: 30%;
-}
-
-.footerinfo1 {
-	width: 30%;
-	display: flex;
-	align-items: center;
-}
-
-.footerinfo2 {
-	width: 30%;
-	margin-top: 10px;
-}
-
-.icon {
-	max-width: 7%;
-	margin-right: 2%;
-}
-
 .mainfooter {
 	position: relative;
 	bottom: 0;
@@ -228,11 +207,95 @@ body{
 }
 
 
+.footerinfo {	
+	height: 100px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.footerinfo1 {
+	width: 100% ;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.icon {
+	max-width: 7%;
+	margin-right: 2%;
+}
+
+
+
 .logo-footer {
-	width: 30%;
+	width: 105px;
 	align-self: flex-start;
 }
 
+@media (max-width: 700px) {
+	.infostyle {
+		float: none;
+		width: 70%;
+		margin: 20px 0 80px 13%;
+	}
+	
+	.imagestyle1 {
+		float: none;
+		width: 70%;
+		margin: 20px 0 2px 13%;
+	}
+	
+	.thenav {
+		margin: 0;
+		border-radius: 0;
+		padding-left: 0;
+		text-align: center;
+		height: 111.67px;
+		background-color: rgba(252, 186, 3, 1);
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 12px;
+	}
+	
+	.thenav a {
+		float: none;
+		padding: 0 20px;
+	}
+	
+	.trackbtn {
+		padding: 0 20px;
+	}
+	
+	.track1 {
+		float: none;
+		margin:  0 auto 40px;
+		max-width: 80%;
+	}
+	
+	.icon {
+		max-width: 12%;
+	}
+}
+
+@media (max-width: 536px) {
+	.slogan {
+		display: none;
+	}
+	
+	.footerinfo1 {
+		font-size: 12px;
+	}
+	
+	.footerinfo {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+}
 /*****************************  Italian trackpage  ****************************************/
 
 /****** section 1 ********/

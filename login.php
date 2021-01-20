@@ -1,35 +1,14 @@
 <?php
 
     include_once 'includes/login.inc.php';
+	
+	$pageTitle = "Sign UP";
+	$pageHeading = "Welcome Back!";
+	$background = true;
+	include('includes/header.php');
 ?>
 
 
-
-<!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset="UFT-8">
-			<link rel="stylesheet" href="css/signup.css">
-			<link rel="stylesheet" href="css/style.css">
-			<title>Registration</title>
-		</head>
-		<body>
-		<div>
-		    	<a href="index.php"><img src="img/logo3.jpg" alt="logo picture" class="logo"></a>
-				<nav class="thenav">
-					<a href="index.php">Home</a>
-					<div class="tracks">
-						<button class="trackbtn">Tracks</button>
-						<div class="track-menu">
-							<a href="italiantrack.php">Italian</a>
-							<a href="asiantrack.php">Asian</a>
-							<a href="easterntrack.php">East-European</a>
-						</div>
-					</div>
-					<a href="signup.php">Sign-up</a>
-					<a href="login.php">Login</a>
-				</nav>
-		</div>
 			<div class="wrapper">
 				<div class="container">
 					<div class="signup-form">
@@ -52,5 +31,5 @@
 					</div>
 				</div>
 			</div>
-		</body>
-	</html>
+			<?php include('includes/footer.php'); ?>
+		

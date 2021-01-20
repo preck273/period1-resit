@@ -1,6 +1,7 @@
 		<?php 
 			$pageTitle = "homepage";
 			$pageHeading = "Culinary School";
+			$background = false;
 			include("inc/header.php"); ?>
 			<main>
 				<section class="homesection1">
@@ -66,4 +67,4 @@
 					<img src="" alt="" class="">
 				</section>
 			</main>
-		<?php include("inc/footer.php"); ?>
+		<?php include("includes/footer.php"); ?>

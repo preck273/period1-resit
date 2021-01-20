@@ -57,7 +57,8 @@
 		}
 			
 		$pageTitle = $tracksinfo[$track]["pageTitle"];
-		$pageHeading = $tracksinfo[$track]["pageHeading"];		
+		$pageHeading = $tracksinfo[$track]["pageHeading"];	
+		$background = false;
 		
 		include("inc/header.php"); ?>
 		
@@ -125,4 +126,4 @@
 				<a href="login.php"><button class="enroll">Enroll</a></button>
 			</section>
 		</main>
-	<?php include("inc/footer.php"); ?>
+	<?php include("includes/footer.php"); ?>
