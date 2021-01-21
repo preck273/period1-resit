@@ -64,8 +64,8 @@
 		
 		<main>
 			<h2 class="track-heading"><?php echo $tracksinfo[$track]["track-heading"]; ?></h2>
-			<section class="track-section1" id="<?php echo $tracksinfo[$track]["background"]; ?>"">				
-				<div class="info-block">
+			<section class="track-section1" id="<?php echo $tracksinfo[$track]["background"]; ?>">				
+				<div class="info-blocka">
 					<img src="<?php echo $tracksinfo[$track]["image-position1"]; ?>" alt="food" class="image-position">
 					<div  class="info-position">
 						<p class="para-style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
@@ -76,7 +76,7 @@
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 					</div>
 				</div>
-				<div class="info-block">
+				<div class="info-blockb">
 					<div class="info-position">
 						<p class="para-style">Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 					Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. 
@@ -120,10 +120,10 @@
 				Morbi tincidunt augue interdum velit euismod. Elit sed vulputate mi sit amet mauris commodo. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. 
 				Praesent tristique magna sit amet purus gravida. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Condimentum vitae sapien pellentesque habitant morbi. </p>
 			</section>
-			<section class="track-section3" id="<?php echo $tracksinfo[$track]["background1"]; ?>"">
+			<section class="track-section3" id="<?php echo $tracksinfo[$track]["background1"]; ?>">
 				<h2 class="track-heading1">Interested!! After you have signed up, come and enroll below</h2>
-				<span class="down-arrow" id="<?php echo $tracksinfo[$track]["arrow"]; ?>"">&dArr;</span>
-				<a href="login.php"><button class="enroll">Enroll</a></button>
+				<span class="down-arrow" id="<?php echo $tracksinfo[$track]["arrow"]; ?>">&dArr;</span>
+				<a href="login.php"><button>Enroll</button></a>
 			</section>
 		</main>
 	<?php include("includes/footer.php"); ?>
