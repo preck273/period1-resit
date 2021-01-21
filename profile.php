@@ -33,13 +33,11 @@
 
 			while(mysqli_stmt_fetch($statement)){
  
-		 ?>
-
-				<h2>Welcome <?php echo $firstName ; ?></h2>
-				<div class="container">
-				<div class="info-content">
-					<div class="info">
-					<h3>Personal Info</h3><br>
+		 ?>        
+		 
+		           <div class="info">
+					   <h2>Welcome <?php echo $firstName; ?> </h2>
+					<h3>Student Info</h3><br>
 					<table>
 							<tr>
 							<th>Student Code:</th> 
@@ -82,8 +80,7 @@
                         }
 						?>
 					</table>
-				</div>	
-				</div>
+				  </div>	
 				</div>							
             </div>
 			</body>

@@ -24,8 +24,7 @@
         if(mysqli_stmt_num_rows($statement) != 0){
 
             ?>
-            <div class="container">
-            <div class="info-content">
+                <div class="enroll">
                 <div style="overflow-x:auto;">
                     <table>
                         <th>S/N</th>
@@ -33,8 +32,6 @@
                         <th>Style(Track)</th>
                         <th>Course Name</th>
                         <th> Start Date</th>
-                        
-                        
                         <?php
                         $counter = 1;
                         //Fetch all rows of data from the result statement
@@ -58,6 +55,7 @@
                 </div>
              </div>
          </div>
+        </div>
          </body>
         </html>								
            

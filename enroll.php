@@ -25,8 +25,7 @@
             if(mysqli_stmt_num_rows($statement) != 0){
                  
                 ?>
-                <div class="container">
-                <div class="info-content">
+                <div class="enroll">
                 <div style="overflow-x:auto;"> 
                 <form method="post" action="includes/enroll.inc.php">
                      <table>

@@ -7,19 +7,21 @@
 	box-sizing: border-box;
 }
 
+
+
 .background {
-	background-image: url(../img/chef.jpg);
+	background-image: url('../img/chef.jpg');
 	background-size: cover;
 	position: no-repeat;
 	font-family: Helvetica, Arial, sans-serif;
 
 }
 
-
 .wrapper{
 	margin: auto;
 	width: 420px;
 	height:100%;
+	
 	 
 }
 

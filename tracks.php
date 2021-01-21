@@ -32,8 +32,7 @@
             if(mysqli_stmt_num_rows($statement) != 0)
             {
                 ?>
-                <div class="container">
-                <div class="info-content"> 
+                   
                     <div class="track">
                         <table>
                             <th>S/N</th>

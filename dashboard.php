@@ -30,7 +30,7 @@
         if(mysqli_stmt_num_rows($statement) != 0){
 
         ?>
-
+                
                 <div style="overflow-x:auto;">
                     <table>
                         <th>S/N</th>

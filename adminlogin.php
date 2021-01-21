@@ -11,7 +11,7 @@
 		<head>
 			<meta charset="UFT-8">
 			<link rel="stylesheet" href="css/signup.css">
-			<title>Registration</title>
+			<title>Admin Login</title>
 		</head>
 		<body>
 			<div class="wrapper">
