@@ -7,10 +7,16 @@
 }
 
 
+
+
 body{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: bebas neue;
 	background-color: #ecf0f5;
 	line-height: 1.4;
+}
+
+p {
+	font-family: roboto;
 }
 
 h2{

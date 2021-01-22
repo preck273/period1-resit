@@ -7,6 +7,15 @@
 	box-sizing: border-box;
 }
 
+body{
+
+	font-family: bebas neue;
+}
+
+p {
+	font-family: roboto;
+}
+
 
 
 .background {

@@ -6,7 +6,11 @@
 
 body{
 
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: bebas neue;
+}
+
+p {
+	font-family: roboto;
 }
 
 /*****************************  Homepage  ****************************************/
