@@ -277,3 +277,17 @@ h2{
 }
 
 }
+
+@media (max-width: 680px) {
+	ul li{
+		float: left;
+		position: relative;
+		left: 31%;
+		bottom: 50px
+	}
+	
+	.sidebar a {
+		margin-left: 2px;
+		font-size: 15px;
+	}
+}
