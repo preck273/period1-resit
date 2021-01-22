@@ -253,7 +253,9 @@ input[type=text] {
     text-align: center;
   }
   
-
+h2{
+	font-size: 0.9em;
+}
 
 
 @media screen and (max-width: 850px) {
